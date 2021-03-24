@@ -1,0 +1,3 @@
+#Create ConfigMap with key and value, to be accessed while deploying SpringBoot application.
+#Create key quotation-url with value <external-ip-of-quotation-service>:<port>/api/v1/quotation to consume data from quotation-service.
+apiVersion: v1

@@ -1,0 +1,11 @@
+#Define a Deployment named `quotationclient-deployment` by using the image pushed to Docker Hub
+#Use containerPort 8082.
+#Access the URL defined in ConfigMap and use environment variable name API_URL
+apiVersion: apps/v1
+
+---
+#Define a Service named `quotationclient-svc` of type LoadBalancer and use the above created Deployment as selector
+apiVersion: v1
+
+
+

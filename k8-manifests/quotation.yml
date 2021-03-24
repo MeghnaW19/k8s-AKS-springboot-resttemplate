@@ -1,0 +1,9 @@
+#Define a Deployment named `quotation-deployment` by using the image pushed to Docker Hub
+#Use containerPort 8081.
+apiVersion: apps/v1
+
+---
+#Define a Service named `quotation-svc` of type LoadBalancer and use the above created Deployment as selector
+apiVersion: v1
+
+

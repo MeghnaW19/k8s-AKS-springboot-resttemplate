@@ -1,0 +1,12 @@
+# application name should be "quotation-service" and should start at 8081
+server:
+  port: 8081
+
+spring:
+  application:
+    name: quotation-service
+app:
+  quotation1: Any sufficiently advanced technology is indistinguishable from magic.
+  quotation2: It's still magic even if you know how it's done.
+  quotation3: Just because something doesn’t do what you planned it to do doesn’t mean it’s useless.
+  quotation4: The art challenges the technology, and the technology inspires the art.
